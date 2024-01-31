@@ -3,7 +3,9 @@
 }
 
 body {
-	background-color: darkred;
+	font-family: Helvetica, sans-serif;
+	background-color: #252525;
+	color: rgb(242, 239, 171);
 	height: fit-content;
 	display: flex;
 	flex-direction: column;
@@ -11,6 +13,7 @@ body {
 }
 
 .container {
+	margin-top: 1rem;
 	display: flex;
 	width: 1200px;
 	align-items: center;
@@ -18,7 +21,7 @@ body {
 }
 
 .grid-container {
-	border: 10px solid yellow;
+	border: 10px solid rgb(242, 239, 171);
 	border-radius: 5px;
 }
 
@@ -29,8 +32,7 @@ body {
 }
 
 .box {
-	/* border: 1px solid yellow; */
-	background-color: black;
+	background-color: #252525;
 	flex: 0 1 auto;
 }
 
@@ -48,5 +50,5 @@ body {
 }
 
 .btn button:hover {
-	background-color: blanchedalmond;
+	background-color: rgb(242, 239, 171);
 }
